@@ -3,6 +3,14 @@ import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
     {
+        title: "User Segmentation Analysis",
+        description:
+            "An advanced data analytics project that transforms raw transactional logs into actionable 360° customer personas. By implementing Heuristic Feature Engineering, the system infers 'hidden' demographic traits, such as Age, Income, Gender, and Working Status, from behavioral proxies like hardware lifecycles (User Agents), temporal patterns (Weekend vs. Weekdays), and Merchant Category Affinity (MCC). These engineered features are integrated with an RFM (Recency, Frequency, Monetary) pipeline and clustered using K-Means, enabling the identification of distinct segments like 'The Active Core' and 'Young Elite.' The project demonstrates a sophisticated approach to Unsupervised Machine Learning, bridging the gap between anonymous transaction data and personalized business intelligence.",
+        tags: ["RFM Analysis", "K-Means Clustering", "Pandas"],
+        image: "/images/pca.png",
+        github: "https://github.com/Khaairi/user-segmentation-analysis.git",
+    },
+    {
         title: "CineBot: Intelligent AI Movie Companion",
         description:
             "An AI-powered conversational agent using Streamlit and Google Gemini. This application leverages an Agentic Workflow via LangChain to fetch real-time movie data from the TMDB API and display it through rich visual cards. Key features include customizable AI personas, a smart watchlist management system, and a Retrieval-Augmented Generation (RAG) pipeline powered by Qdrant and HuggingFace embeddings, allowing users to upload and interactively analyze movie scripts or PDFs. Additionally, the bot integrates the Google Search API to provide real-time 'Now Playing' cinema schedules and showtimes specific to Indonesian theaters.",
@@ -37,7 +45,7 @@ const projects = [
     {
         title: "SILELA: Sistem Pelayanan Elektronik Isola",
         description:
-            "A mobile application designed to digitize administrative correspondence processes for the Kelurahan Isola government office. As a Backend Developer, I designed and implemented the MySQL database schema and built robust RESTful APIs using FastAPI to handle complex business logic. (Code currently on private do to some reasons)",
+            "A mobile application designed to digitize administrative correspondence processes for the Kelurahan Isola government office. As a Backend Developer, I designed and implemented the MySQL database schema and built robust RESTful APIs using FastAPI to handle complex business logic. (Code currently on private due to some reasons)",
         tags: ["FastAPI", "MySQL"],
         image: "/images/silela.png",
     },
