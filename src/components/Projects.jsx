@@ -11,6 +11,14 @@ const projects = [
         github: "https://github.com/Khaairi/user-segmentation-analysis.git",
     },
     {
+        title: "User Behavior Analysis of Cyclistic Bike-Share",
+        description:
+            "Leveraging a year of granular bike-share transactional data, this project employs a multi-stage analytical workflow, encompassing data orchestration, ROCCC-validated quality assurance, and temporal feature engineering, to decode the distinct behavioral signatures of 'Member' vs. 'Casual' riders. By synthesizing ride-length distributions with diurnal and seasonal temporal proxies, the system identifies a clear divergence between the 'Rush Hour' commuter profile (Members) and the leisure-driven 'Weekend/Warm-Month' profile (Casuals). These insights were translated into high-impact visualizations using Matplotlib, culminating in a strategic recommendation engine that proposes targeted seasonal pricing and weekend-specific membership tiers to optimize customer lifetime value and drive conversion among high-frequency casual users.",
+        tags: ["Pandas", "Matplotlib", "Behavior Analysis"],
+        image: "/images/cyclistic.png",
+        github: "https://github.com/Khaairi/Portofolio_Data.git",
+    },
+    {
         title: "CineBot: Intelligent AI Movie Companion",
         description:
             "An AI-powered conversational agent using Streamlit and Google Gemini. This application leverages an Agentic Workflow via LangChain to fetch real-time movie data from the TMDB API and display it through rich visual cards. Key features include customizable AI personas, a smart watchlist management system, and a Retrieval-Augmented Generation (RAG) pipeline powered by Qdrant and HuggingFace embeddings, allowing users to upload and interactively analyze movie scripts or PDFs. Additionally, the bot integrates the Google Search API to provide real-time 'Now Playing' cinema schedules and showtimes specific to Indonesian theaters.",
